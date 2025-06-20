@@ -14,7 +14,7 @@ http://localhost:5000/api
 
 ## Authentication
 
-No authentication is required for API access. (For production, consider token-based auth.)
+No authentication is required for API access.
 
 ---
 
