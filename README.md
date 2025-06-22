@@ -73,13 +73,13 @@ An intelligent full-stack application that uses algorithms to optimize recipe re
 
 
 **📊 Coverage Results:**
-- **Overall Coverage**: **72.58%** ✅ **(Exceeds 70% requirement)**
-- **Models**: **81.81%** 🌟 **(Outstanding)**
-  - Recipe.js: **100%** ⭐ **(Perfect)**
-  - Substitution.js: **100%** ⭐ **(Perfect)**
-- **Routes**: **69.31%** ✅ **(Excellent API coverage)**
-- **Services**: **77.77%** 🌟 **(Outstanding business logic coverage)**
-- **Tests Passed**: **31/31** 🎉 **(100% success rate)**
+- **Overall Coverage**: **72.58%** 
+- **Models**: **81.81%**
+  - Recipe.js: **100%**
+  - Substitution.js: **100%**
+- **Routes**: **69.31%** 
+- **Services**: **77.77%** 
+- **Tests Passed**: **31/31**
 
 ### **Testing Approach**
 
