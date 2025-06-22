@@ -69,8 +69,8 @@ An intelligent full-stack application that uses algorithms to optimize recipe re
 
 ### **Test Coverage Achieved**
 
-![![Screenshot 2025-06-22 144401](https://github.com/user-attachments/assets/a0546a53-1275-46fe-ae7f-9ecaa6245c6b)
-]()
+![Screenshot 2025-06-22 144401](https://github.com/user-attachments/assets/abc9956c-2e57-4ae1-bb8a-b0c5e767e55b)
+
 
 **📊 Coverage Results:**
 - **Overall Coverage**: **72.58%** ✅ **(Exceeds 70% requirement)**
