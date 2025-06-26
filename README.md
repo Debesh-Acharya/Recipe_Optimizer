@@ -69,16 +69,17 @@ An intelligent full-stack application that uses algorithms to optimize recipe re
 
 ### **Test Coverage Achieved**
 
-![frontend\public\Screenshot 2025-06-22 144401.png]()
+![Screenshot 2025-06-22 144401](https://github.com/user-attachments/assets/abc9956c-2e57-4ae1-bb8a-b0c5e767e55b)
+
 
 **📊 Coverage Results:**
-- **Overall Coverage**: **72.58%** ✅ **(Exceeds 70% requirement)**
-- **Models**: **81.81%** 🌟 **(Outstanding)**
-  - Recipe.js: **100%** ⭐ **(Perfect)**
-  - Substitution.js: **100%** ⭐ **(Perfect)**
-- **Routes**: **69.31%** ✅ **(Excellent API coverage)**
-- **Services**: **77.77%** 🌟 **(Outstanding business logic coverage)**
-- **Tests Passed**: **31/31** 🎉 **(100% success rate)**
+- **Overall Coverage**: **72.58%** 
+- **Models**: **81.81%**
+  - Recipe.js: **100%**
+  - Substitution.js: **100%**
+- **Routes**: **69.31%** 
+- **Services**: **77.77%** 
+- **Tests Passed**: **31/31**
 
 ### **Testing Approach**
 
@@ -460,27 +461,6 @@ curl -X POST http://localhost:5000/api/recipes \
 - **User-friendly interface** with modern design principles
 - **Scalable architecture** ready for production deployment
 - **Comprehensive feature set** for complete recipe management
-
-This project demonstrates **senior-level full-stack development skills** with emphasis on testing, code quality, and professional development practices.
-
----
-
-## 🤝 Contributing
-
-Given the comprehensive testing suite and professional development standards:
-
-1. **Fork the repository** and create a feature branch
-2. **Write tests first** following the established patterns
-3. **Ensure all tests pass** with `npm run test:coverage`
-4. **Maintain coverage above 70%** for new code
-5. **Update documentation** for any API changes
-6. **Submit a pull request** with detailed description
-
-**Testing Requirements for Contributors:**
-- All new features must include unit tests
-- API endpoints require integration and API tests
-- Edge cases and error scenarios must be tested
-- Code coverage should not decrease below current levels
 
 ```
 
