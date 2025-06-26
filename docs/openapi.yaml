@@ -1,0 +1,64 @@
+openapi: 3.1.0
+info:
+  title: Recipe Optimizer API
+  description: AI-powered recipe optimization
+  version: 1.0.0
+
+servers:
+  - url: http://localhost:5000
+
+paths:
+  /api/recipes:
+    get:
+      summary: Get all recipes
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  count:
+                    type: integer
+                  data:
+                    type: array
+    
+    post:
+      summary: Create recipe
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                servings:
+                  type: integer
+                difficulty:
+                  type: string
+      responses:
+        '201':
+          description: Created
+
+  /api/optimize/recipes:
+    post:
+      summary: Optimize recipes
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                availableIngredients:
+                  type: array
+                  items:
+                    type: string
+                maxResults:
+                  type: integer
+      responses:
+        '200':
+          description: Success
