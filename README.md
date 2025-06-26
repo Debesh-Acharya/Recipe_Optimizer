@@ -448,8 +448,6 @@ curl -X POST http://localhost:5000/api/recipes \
 
 ### **✅ GitHub Actions CI/CD Integration**
 
-![GitHub Actions Success](https://img.shields.io/badge/GitHub%20Actions-✅%20Passing-brightgreen)
-
 **CI/CD Pipeline Status:**
 - **Workflow**: `.github/workflows/keploy-ci.yml` ✅
 - **OpenAPI Validation**: Passed ✅
