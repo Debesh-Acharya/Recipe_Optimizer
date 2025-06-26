@@ -433,6 +433,46 @@ curl -X POST http://localhost:5000/api/recipes \
   }'
 ```
 
+## 🤖 Task 1: API Testing with AI - COMPLETE
+
+### **✅ Keploy AI Testing Dashboard Results**
+
+![Keploy Test Results](![Screenshot 2025-06-26 215023](https://github.com/user-attachments/assets/2b8f752b-ecf7-4f1c-afc8-bbc4ea9a5642)
+
+**📊 Test Summary:**
+- **Total Test Cases**: 20
+- **Passed**: 20 (100% success rate) ✅
+- **Failed**: 0 ✅
+- **App Name**: Cookmate (Recipe Optimizer)
+- **Platform**: Keploy AI Testing Platform
+
+### **✅ GitHub Actions CI/CD Integration**
+
+GitHub Actions Success(https://img.shields.io/badge/GitHub%20Actions-✅%20Passing-brightgreen)
+
+**CI/CD Pipeline Status:**
+- **Workflow**: `.github/workflows/keploy-ci.yml` ✅
+- **OpenAPI Validation**: Passed ✅
+- **Jest Test Suite**: 31/31 passed (72.58% coverage) ✅
+- **MongoDB Service**: Running successfully ✅
+- **API Endpoint Tests**: All responding correctly ✅
+- **Pipeline Status**: Green tick (✅) - All phases passing
+
+### **✅ Complete Testing Results**
+
+| Testing Type | Framework | Tests Passed | Coverage/Success Rate |
+|--------------|-----------|--------------|----------------------|
+| **Unit Tests** | Jest | 31/31 | 72.58% coverage |
+| **AI API Tests** | Keploy | 20/20 | 100% success rate |
+| **CI/CD Pipeline** | GitHub Actions | All phases | ✅ Passing |
+
+### **🔗 Repository Links**
+
+- **GitHub Repository**: [Recipe_Optimizer](https://github.com/Debesh-Acharya/Recipe_Optimizer)
+- **CI/CD Configuration**: [keploy-ci.yml](.github/workflows/keploy-ci.yml)
+- **OpenAPI Schema**: [openapi.yaml](docs/openapi.yaml)
+
+
 ### **Development Guidelines**
 - **Run tests before committing** to ensure code quality
 - **Maintain test coverage above 70%** for all new features
